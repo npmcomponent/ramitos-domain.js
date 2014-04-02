@@ -1,25 +1,15 @@
 {
-  "name": "domain.js",
-  "version": "0.1.0",
+  "name": "ramitos-domain.js",
   "description": "get the domain from a url",
-  "main": "src/domain.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ramitos/domain.js"
-  },
+  "version": "0.1.0",
   "keywords": [
     "url",
     "domain"
   ],
-  "author": "Sérgio Ramos <mail@sergioramos.me>",
-  "license": "MIT",
-  "devDependencies": {
-    "colors": "0.6.x"
-  },
-  "scripts": {
-    "test": "node test/server/runner"
-  },
+  "main": "src/domain.js",
   "dependencies": {
-    "tld.js": "0.0.x"
-  }
+    "ramitos-tld.js": "git://github.com/npmcomponent/ramitos-tld.js.git",
+    "component-url": "git://github.com/npmcomponent/component-url.git"
+  },
+  "license": "MIT"
 }

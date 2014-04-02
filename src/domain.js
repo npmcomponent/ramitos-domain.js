@@ -1,5 +1,5 @@
-var parse = require('url').parse,
-    tld = require('tld.js');
+var parse = require('component-url').parse,
+    tld = require('ramitos-tld.js');
     
 
 module.exports = function (url) {
